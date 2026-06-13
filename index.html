@@ -8,55 +8,69 @@
   <link rel="stylesheet" href="./common.css">
 
   <nav class="nav" id="nav">
-    <a href="#home"> <img id="logo" src="https://cmcb.org/wp-content/uploads/2020/09/cmcb-logo-black.svg"></a>
+    <a href="index.html"> <img id="logo" src="https://cmcb.org/wp-content/uploads/2020/09/cmcb-logo-black.svg"></a>
 
     <div id="nav-btns">
-      <a href="#menu-item-1">Donate</a>
-      <a href="#menu-item-2">Register</a>
-      <a href="#menu-item-3">Student Pathways</a>
-      <a href="#menu-item-3">Menu</a>
+      <a href="https://cmcb.org/donate/" target="_blank">Donate</a>
+      <a href="https://cmcb.org/community-music-school/" target="_blank">Register</a>
+      <a href="https://cmcb.org/student-pathways/" target="_blank">Student Pathways</a>
 
-      <a href="#" id="menu-toggle">
+      <!-- Desktop Menu Button-->
+      <button id="desktop-menu-toggle" class="desktop-menu-btn">Menu</button>
+
+      <!--Mobile Menu Button-->
+      <button id="mobile-menu-toggle" class="hamburger">
         <div class="menu-toggle__bar1"></div>
         <div class="menu-toggle__bar2"></div>
         <div class="menu-toggle__bar3"></div>
-      </a>
-      <script src="script.js"></script>
-
+      </button>
     </div>
-    </nav>
+  </nav>
 
-    <header class="hero">
-      <h2>Music Education for Every Age and Stage</h2>
-      <p>Explore private lessons, group classes, and community music programs.</p>
-      <button>Register Now</button>
-    </header>
+  <!--Pop-Up Navigation-->
+  <div id="pop-up-menu">
+    <a href="https://cmcb.org/about/">About</a>
 
-    <section class="programs">
-      <h2>Featured Programs</h2>
-      <div class="card-container">
-        <div class="card">Private Lessons</div>
-        <div class="card">Group Classes</div>
-        <div class="card">Community Programs</div>
-      </div>
-    </section>
+    <a href="https://cmcb.org/community-music-school/">Programs</a>
 
-    <section class="pathways">
-      <h2>Student Pathways</h2>
-      <div class="card-container">
-        <div class="card">Explore</div>
-        <div class="card">Learn</div>
-        <div class="card">Perform</div>
-        <div class="card">Grow</div>
-      </div>
-    </section>
+    <a href="https://cmcb.org/events/">Events</a>
 
-    <section class="cta">
-      <h2>Ready to Start Your Musical Journey?</h2>
-      <button>Submit Inquiry</button>
-    </section>
+    <a href="contact.html">Connect</a>
 
-    <footer>
+    <a href="https://cmcb.org/donate/">Support</a>
+  </div>
+
+  <header class="hero">
+    <h2>Music Education for Every Age and Stage</h2>
+    <p>Explore private lessons, group classes, and community music programs.</p>
+    <button>Register Now</button>
+  </header>
+
+  <section class="programs">
+    <h2>Featured Programs</h2>
+    <div class="card-container">
+      <div class="card">Private Lessons</div>
+      <div class="card">Group Classes</div>
+      <div class="card">Community Programs</div>
+    </div>
+  </section>
+
+  <section class="pathways">
+    <h2>Student Pathways</h2>
+    <div class="card-container">
+      <div class="card">Explore</div>
+      <div class="card">Learn</div>
+      <div class="card">Perform</div>
+      <div class="card">Grow</div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Ready to Start Your Musical Journey?</h2>
+    <button>Submit Inquiry</button>
+  </section>
+
+  <footer>
     <div id="more-links">
       <div id="about-section">
         <h2> About </h2>
@@ -114,11 +128,14 @@
       </div>
     </div>
   </footer>
+  <script src="script.js"></script>
 
-    <title>Document</title>
+
+  <title>Document</title>
 </head>
 
 <body>
 
 </body>
+
 </html>

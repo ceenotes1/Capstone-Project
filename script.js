@@ -1,12 +1,25 @@
-function toggleMenu() {
-    document.getElementById('nav')
-        .classList.toggle('nav--open');
+const desktopMenuBtn = document.getElementById('desktop-menu-toggle')
+const mobileMenuBtn = document.getElementById('mobile-menu-toggle')
+const popUpMenu = document.getElementById('pop-up-menu')
 
-    document.getElementById('menu-toggle')
-        .classList.toggle('menu-toggle--open');
+function toggleMenu () {
+  popUpMenu.classList.toggle('open')
 }
 
-document.getElementById('menu-toggle').addEventListener('click', (e) => {
-    e.preventDefault();
-    toggleMenu();
-});
+if (desktopMenuBtn) {
+  desktopMenuBtn.addEventListener('click', toggleMenu)
+};
+
+if (mobileMenuBtn) {
+  mobileMenuBtn.addEventListener('click', toggleMenu)
+}
+
+document.addEventListener('click', event => {
+  if (
+    !popUpMenu.contains(event.target) &&
+        !desktopMenuBtn.contains(event.target) &&
+        !mobileMenuBtn.contains(event.target)
+  ) {
+    popUpMenu.classList.remove('open')
+  }
+})
