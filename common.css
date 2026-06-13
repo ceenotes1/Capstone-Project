@@ -29,3 +29,57 @@
 .nav #menu-toggle {
   display: none;
 }
+
+/* footer */
+footer {
+  background-color: #222721;
+  color: whitesmoke;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+
+#more-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#more-links h2 {
+  text-transform: uppercase;
+}
+
+#more-links a {
+  text-decoration: none;
+  color: white;
+}
+
+#about-section,
+#programs-section,
+#resources-section,
+#connect-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px
+}
+
+#credits {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+}
+
+#socials {
+  display: flex;
+  gap: 8px;
+}
+
+#social-img {
+  width: 44px;
+  height: 44px;
+  object-fit: scale-down;
+  border-radius: 100px;
+  background-color: white;
+}
