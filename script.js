@@ -17,8 +17,8 @@ if (mobileMenuBtn) {
 document.addEventListener('click', event => {
   if (
     !popUpMenu.contains(event.target) &&
-        !desktopMenuBtn.contains(event.target) &&
-        !mobileMenuBtn.contains(event.target)
+    !desktopMenuBtn.contains(event.target) &&
+    !mobileMenuBtn.contains(event.target)
   ) {
     popUpMenu.classList.remove('open')
   }

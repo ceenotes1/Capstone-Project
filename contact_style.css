@@ -4,10 +4,31 @@ body {
   font-family: "Helvetica Neue", sans-serif;
   color: #212720;
   gap: 12px;
+  letter-spacing: -.15px;
+  line-height: 2.375rem;
 }
 
 h1 {
   text-transform: uppercase;
+  font-weight: 900;
+  font-size: 4.5rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 3.0rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-weight: 900;
+  font-size: 1.25rem;
 }
 
 /* nav bar */
@@ -67,7 +88,7 @@ h1 {
   right: 20px;
   width: 240px;
   background: white;
-  box-shadow: 0 8px 20px rgba(0,0,0,.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .2);
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -92,8 +113,21 @@ h1 {
   text-transform: uppercase;
 }
 
+#desktop-menu-toggle:hover,
+#mobile-menu-toggle:hover,
 #pop-up-menu a:hover {
   color: #0d7fc0;
+}
+
+details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+details a {
+  display: flex;
+  flex-direction: row;
 }
 
 /* home section */
@@ -101,6 +135,8 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: left;
+  gap: 48px;
 }
 
 .home h1 {
@@ -117,7 +153,6 @@ h1 {
 
 /* address & hours */
 .address-hrs {
-  background-color: lightblue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -159,8 +194,6 @@ h1 {
 
 /* contact form */
 .contact {
-  background-color: wheat;
-    width: 50%;
   padding: 96px;
   display: flex;
   flex-direction: column;
@@ -173,6 +206,7 @@ input {
   width: max-content;
 }
 
+/* footer */
 footer {
   background-color: #222721;
   color: whitesmoke;
@@ -221,7 +255,6 @@ footer {
 #social-img {
   width: 44px;
   height: 44px;
-  object-fit: scale-down;
   border-radius: 100px;
   background-color: white;
 }
@@ -230,7 +263,11 @@ footer {
 /* media queries */
 @media screen and (max-width: 600px) {
 
-  body, nav, footer, #more-links, #credits {
+  body,
+  nav,
+  footer,
+  #more-links,
+  #credits {
     display: flex;
     flex-direction: column;
   }
@@ -244,7 +281,7 @@ footer {
   }
 
   #pop-up-menu {
-    top:180px;
+    top: 180px;
   }
 }
 
