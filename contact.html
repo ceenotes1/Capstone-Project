@@ -21,22 +21,13 @@
       <a href="#menu-item-3">Student Pathways</a>
       <a href="#menu-item-3">Menu</a>
 
-      <a href="javascript:void(0);" id="menu-toggle" onclick="togglemenu()">
-        <script> function togglemenu() {
-            const x = document.getElementById('nav');
-            if (x.className === 'nav') {
-              x.className += ' nav--open'
-            }
-            else { x.className = 'nav' }
-            const element = document.getElementById('menu-toggle');
-            element.classList.toggle('menu-toggle--open')
-          }
-        </script>
-
+      <a href="#" id="menu-toggle">
         <div class="menu-toggle__bar1"></div>
         <div class="menu-toggle__bar2"></div>
         <div class="menu-toggle__bar3"></div>
       </a>
+      <script src="script.js"></script>
+
     </div>
   </nav>
 

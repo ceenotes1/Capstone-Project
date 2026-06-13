@@ -243,7 +243,7 @@ footer {
     float: right;
     display: block;
   }
-  footer, #more-links, #credits {
+  body, nav, footer, #more-links, #credits {
     display: flex;
     flex-direction: column;
   }
