@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact Us - Community Music Center of Boston</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="contact_style.css" />
+  <link rel="icon" href="favicon.jpg">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="nav" id="nav">
+    <a href="#home"> <img id="logo" src="https://cmcb.org/wp-content/uploads/2020/09/cmcb-logo-black.svg"></a>
+
+    <div id="nav-btns">
+      <a href="#menu-item-1">Donate</a>
+      <a href="#menu-item-2">Register</a>
+      <a href="#menu-item-3">Student Pathways</a>
+      <a href="#menu-item-3">Menu</a>
+
+      <a href="javascript:void(0);" id="menu-toggle" onclick="togglemenu()">
+        <script> function togglemenu() {
+            const x = document.getElementById('nav');
+            if (x.className === 'nav') {
+              x.className += ' nav--open'
+            }
+            else { x.className = 'nav' }
+            const element = document.getElementById('menu-toggle');
+            element.classList.toggle('menu-toggle--open')
+          }
+        </script>
+
+        <div class="menu-toggle__bar1"></div>
+        <div class="menu-toggle__bar2"></div>
+        <div class="menu-toggle__bar3"></div>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Main, Description and Photo -->
+  <div class="home">
+
+    <img src="https://cmcb.org/wp-content/uploads/2020/04/festival-img.png" alt="" id="hero-photo">
+    <h1>Contact Us</h1>
+
+    <p>Our hours of operation and mailing address are located below.<br>
+      We are located in the South End, in the BCA complex, which means<br>
+      that parking is limited. Our accessibility page details entrances<br>
+      and parking. You can contact our staff by using the form below.<br>
+      Please specify your reason for contact using the dropdown, so that<br>
+      the message can be routed to the correct person. </p>
+
+    <a href="https://cmcb.org/sign-up-for-updates/">Want to get the latest from CMCB? Sign up here.</a>
+  </div>
+
+  <!-- Address and Hours -->
+  <div class="address-hrs">
+    <h1>Address and Hours</h1>
+
+
+    <div class="parent">
+      <div class="div1">Our Address<br>Community Music Center of Boston<br>34 Warren Ave.<br>537 Tremont St.
+        (elevator)<br>Boston, MA 02116</div>
+      <div class="div2">Mailing Address (*NEW)<br>PO Box 171737<br>Boston, MA 02117</div>
+      <div class="div3">Our EIN: 04-2437973</div>
+      <div class="div4">Phone: 617-482-7494<br>Fax: 617-482-6267<br>info@cmcb.org</div>
+      <div class="div5">FOR AN UPDATED CLASS LISTING VISIT:<br><a href="https://go.asapconnected.com/?org=5521"> Online
+          Registration for CMCB</a><br><br>Direct all
+        registration-related questions to:<br> <a href="registration@cmcb.org">registration@cmcb.org</a> </div>
+      <div class="div6">Operation Hours<br>Sunday: CLOSED<br>Monday: 10:00 AM – 8:00 PM<br>Tuesday: 10:00 AM – 8:00
+        PM<br>Wednesday: 10:00 AM – 8:00 PM<br>Thursday: 10:00 AM – 8:00 PM<br>Friday: 10:00 AM – 8:00 PM<br>Saturday:
+        9:00 AM – 5:30 PM</div>
+    </div>
+
+    <p>We are conveniently located just a few blocks from the Back Bay Station (Orange Line) in the South End.</p>
+    <!-- Move the map here -->
+    <iframe width="450" height="250" frameborder="0" style="border:0" referrerpolicy="no-referrer-when-downgrade"
+      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAJJ2iIihiUc30e0GgWOcguZKChe3STpvw&q=Communit+Music+Center+of+Boston" allowfullscreen>
+    </iframe>
+
+  </div>
+
+  <!-- Contact Form -->
+  <div class="contact">
+    <h1>Contact Form</h1>
+
+    <form action="#">
+      <label for="fname">Name *</label> <br>
+      <input type="text" id="fname" name="fname">
+      <input type="text" id="lname" name="lname"><br><br>
+
+      <label for="email">Email *</label> <br>
+      <input type="text" id="email" name="email"> <br><br>
+
+      <label for="reason">Reason for Contact *</label> <br>
+      <select name="reason" id="reason">
+        <option>Registration Question (Classes/Lessons)</option>
+        <option>Music Therapy </option>
+        <option>Donation Question/Comment </option>
+        <option> Media Request</option>
+        <option> Interested in Joining Board/Corporation </option>
+        <option> Interested in Volunteering</option>
+        <option> Interested in School or Community Partnerships</option>
+        <option> Interested in Sponsorship</option>
+        <option>General Comment</option>
+
+      </select> <br><br>
+
+      <label for="message">Message *</label> <br>
+      <textarea id="message" name="message" rows="4" cols="50"> </textarea><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+
+  <!-- Footer -->
+  <footer>
+    <div id="more-links">
+      <div id="about-section">
+        <h2> About </h2>
+        <a href="https://cmcb.org/about/"> About CMCB </a>
+        <a href="https://cmcb.org/student-pathways/"> Pathways </a>
+        <a href="https://cmcb.org/about/accessibility/"> Accessibility </a>
+        <a href="https://cmcb.org/about/faculty-staff/"> Faculty </a>
+        <a href="https://cmcb.org/about/staff/"> Staff </a>
+        <a href="https://cmcb.org/about/board-and-corporation/"> Board and Corporation </a>
+      </div>
+      <div id="programs-section">
+        <h2> Programs </h2>
+        <a href="https://cmcb.org/community-music-school/"> Community Music School </a>
+        <a href="https://cmcb.org/programs/music-therapy/"> Music Therapy </a>
+        <a href="https://cmcb.org/community-engagement-programs/"> Community Engagement Programs </a>
+        <a href="https://cmcb.org/about/youth-employment-program/"> Youth Employment Program </a>
+
+      </div>
+      <div id="resources-section">
+        <h2> Resources </h2>
+        <a href="https://cmcb.org/how-to-register/"> Registration & Financial Aid </a>
+        <a href="https://cmcb.org/student-resources/"> Student & Family Resources </a>
+        <a href="https://cmcb.org/employee-resources/"> Employee Resources </a>
+        <a href="https://cmcb.org/about/employment-opportunities/"> Employment Opportunities </a>
+
+      </div>
+      <div id="connect-section">
+        <h2> Connect </h2>
+        <a href="https://cmcb.org/donate/"> Donate </a>
+        <a href="https://cmcb.org/sign-up-for-updates/"> Newsletter Sign-Up </a>
+        <a href="https://cmcb.org/events/"> Events </a>
+        <a href="#"> Contact Us </a>
+
+      </div>
+    </div>
+
+    <div id="credits">
+
+      <img src="https://cmcb.org/wp-content/uploads/2020/04/cmcb-logo-small.svg" alt="The CMCB Logo">
+
+      <small> Community Music Center of Boston is accredited by the Accrediting Commission for <br>
+        Community and Precollegiate Arts Schools. We are also an accredited institutional member<br>
+        of the National Association of Schools of Music and a full member of the National Guild <br>
+        for Community Arts Education. <br>Copyright ©2019 Community Music Center of Boston.
+        All Rights Reserved. 501(c)(3) non-profit organization.
+      </small>
+
+      <div id="socials">
+        <a href="https://www.instagram.com/communitymusiccenterofboston/"><img id="social-img"
+            src="/media/instagram.png"></a>
+        <a href="https://twitter.com/cmcbdotorg"><img id="social-img" src="/media/twitter.png"> </a>
+        <a href="https://www.facebook.com/communitymusiccenter/"><img id="social-img" src="/media/facebook.png"></a>
+        <a href="https://www.youtube.com/channel/UCOcVkq0OgqxA2od_qHH-iSg"><img id="social-img"
+            src="/media/youtube.png"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

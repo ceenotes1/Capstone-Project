@@ -1,0 +1,290 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(//fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBHMdazTgWw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(//fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  src: url(//fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBHMdazTgWw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  src: url(//fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: 100%;
+  src: url(//fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBHMdazTgWw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: 100%;
+  src: url(//fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  color: #212720;
+  gap: 12px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+/* nav bar */
+#logo {
+  width: 353px;
+}
+
+.nav {
+  padding: 0px 24px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-btns {
+  display: flex;
+}
+
+.nav a {
+  float: left;
+  margin: 10px;
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: large;
+}
+
+.nav #menu-toggle {
+  display: none;
+}
+
+/* home section */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home h1 {
+  position: absolute;
+  top: 50%;
+  text-transform: uppercase;
+  text-shadow: #000000;
+}
+
+#hero-photo {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* address & hours */
+.address-hrs {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+/* grid */
+.parent {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 48px;
+}
+
+.div2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.div3 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.div4 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.div5 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.div6 {
+  grid-row-start: 3;
+}
+
+/* contact form */
+.contact {
+  background-color: wheat;
+    width: 50%;
+  padding: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #212720;
+}
+
+input {
+  width: max-content;
+}
+
+footer {
+  background-color: #222721;
+  color: whitesmoke;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+
+#more-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#more-links h2 {
+  text-transform: uppercase;
+}
+
+#more-links a {
+  text-decoration: none;
+  color: white;
+}
+
+#about-section,
+#programs-section,
+#resources-section,
+#connect-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px
+}
+
+#credits {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+}
+
+#socials {
+  display: flex;
+  gap: 8px;
+}
+
+#social-img {
+  width: 44px;
+  height: 44px;
+  object-fit: scale-down;
+  border-radius: 100px;
+  background-color: white;
+}
+
+
+/* media queries */
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {
+    display: none;
+  }
+
+  .nav a#menu-toggle {
+    float: right;
+    display: block;
+  }
+  footer, #more-links, #credits {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav.nav--open {
+    position: relative;
+  }
+
+  .nav.nav--open #menu-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .nav.nav--open a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.menu-toggle__bar1,
+.menu-toggle__bar2,
+.menu-toggle__bar3 {
+  width: 21px;
+  height: 3px;
+  background-color: #000000;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+.menu-toggle--open .menu-toggle__bar1 {
+  transform: translate(0, 7px) rotate(-45deg);
+}
+
+.menu-toggle--open .menu-toggle__bar2 {
+  opacity: 0;
+}
+
+.menu-toggle--open .menu-toggle__bar3 {
+  transform: translate(0, -7px) rotate(45deg);
+}
