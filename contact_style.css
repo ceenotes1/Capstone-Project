@@ -38,18 +38,33 @@ h4 {
   align-items: center;
   text-align: left;
   gap: 48px;
-}
-
-.home h1 {
-  position: absolute;
-  top: 50%;
-  text-transform: uppercase;
-  text-shadow: #000000;
+  padding-top: 140px;
 }
 
 #hero-photo {
+  width: 100%;
+  display: block;
+}
+
+.hero {
+  position: relative;
   width: 90%;
-  margin: 0 auto;
+  color: white;
+}
+
+.hero-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-title h1 {
+  color: white;
+  background-color: black;
+  padding: 12px 24px;
+  margin: 0;
+  display: inline-block;
 }
 
 /* address & hours */
