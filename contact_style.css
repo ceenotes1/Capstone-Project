@@ -5,7 +5,6 @@ body {
   color: #212720;
   gap: 12px;
   letter-spacing: -.15px;
-  line-height: 2.375rem;
 }
 
 h1 {
@@ -37,12 +36,18 @@ h4 {
 }
 
 .nav {
-  padding: 0px 24px;
+  padding: 12px 24px;
+  padding-right: 72px;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 72px;
+  border-top: 3px solid #ffcd00;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
 }
 
 #nav-btns {
@@ -228,6 +233,13 @@ footer {
 
 #more-links a {
   text-decoration: none;
+  color: white;
+}
+
+#more-links a:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+  transition: transform .3s ease, color .3s ease;
   color: white;
 }
 
