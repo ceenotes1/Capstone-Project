@@ -61,11 +61,12 @@ h4 {
 
 .hero-title h1 {
   color: white;
-  background-color: black;
+  background-color: #212720;
   padding: 12px 24px;
   margin: 0;
   display: inline-block;
 }
+
 
 /* address & hours */
 .address-hrs {

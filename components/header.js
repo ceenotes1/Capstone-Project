@@ -6,9 +6,9 @@ class HeaderComponent extends HTMLElement {
                     <a href="index.html"> <img id="logo" src="https://cmcb.org/wp-content/uploads/2020/09/cmcb-logo-black.svg" /></a>
 
                     <div id="nav-btns">
-                        <a href="https://cmcb.org/donate/" target="_blank">Donate</a>
-                        <a href="https://cmcb.org/community-music-school/" target="_blank">Register</a>
-                        <a href="https://cmcb.org/student-pathways/" target="_blank">Student Pathways</a>
+                        <a href="about.html" target="_blank">About</a>
+                        <a href="programs.html" target="_blank">Programs</a>
+                        <a href="contact.html" target="_blank">Contact Us</a>
 
                         <button id="desktop-menu-toggle" class="desktop-menu-btn">Menu</button>
 
