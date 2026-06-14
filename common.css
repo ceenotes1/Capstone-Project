@@ -98,6 +98,15 @@ details {
   gap: 12px;
 }
 
+details summary:hover {
+  text-decoration: underline;
+}
+
+details a:hover {
+  transform: scale(1.05);
+  transition: transform .3s ease, color .3s ease;
+}
+
 details a {
   display: flex;
   flex-direction: row;
@@ -128,6 +137,13 @@ footer {
   color: white;
 }
 
+#more-links a:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+  transition: transform .3s ease, color .3s ease;
+  color: white;
+}
+
 #about-section,
 #programs-section,
 #resources-section,
@@ -152,27 +168,22 @@ footer {
 #social-img {
   width: 44px;
   height: 44px;
-  object-fit: scale-down;
   border-radius: 100px;
   background-color: white;
 }
+
 
 /* media queries */
 @media screen and (max-width: 600px) {
 
   body,
   nav,
-  #nav-btns,
   footer,
   #more-links,
   #credits {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
-
 
   #desktop-menu-toggle {
     display: none;
