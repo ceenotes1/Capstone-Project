@@ -6,27 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Carousel</title>
   <link rel="stylesheet" href="Carousel.css">
+  <link rel="stylesheet" type="text/css" href="common.css" />
+  <script src="components/header.js" type="text/javascript" defer></script>
+  <script src="components/footer.js" type="text/javascript" defer></script>
   <script src="Carousel.js" defer></script>
 </head>
 
 
 
-<body> 
+<body>
+  <header-component></header-component>
+
   <div class="page-container">
-    
+
     <section class="cmcbleadership">
       <div class="groupimage"></div>
-      <img src="https://picsum.photos/1160/490?random=1" alt="class image"/>
+      <img src="https://picsum.photos/1160/490?random=1" alt="class image" />
       <h3> CMCB Leadership </h3>
-      <p> At CMCB we transform lives by providing equitable access to excellent music education and arts experiences. <br> Over 4,000 students participate in our programs every week. </p>
+      <p> At CMCB we transform lives by providing equitable access to excellent music education and arts experiences.
+        <br> Over 4,000 students participate in our programs every week. </p>
       <div class="divider"></div>
     </section>
 
-   <!-- Filter & Searchbar -->
-    <section class="filter-search"> 
+    <!-- Filter & Searchbar -->
+    <section class="filter-search">
       <div id="filter">
-        <select id="instrumentFilter"> 
-          <option value="all">All Instruments</option> 
+        <select id="instrumentFilter">
+          <option value="all">All Instruments</option>
           <option value="bass">Bass</option>
           <option value="bassoon">Bassoon</option>
           <option value="cello">Cello</option>
@@ -58,226 +64,226 @@
       </div>
     </section>
 
-   <!-- Faculty -->
+    <!-- Faculty -->
     <section class="carousel-section">
-        <h3 class="faculty">Faculty</h3>
-      
-      
+      <h3 class="faculty">Faculty</h3>
+
+
       <button class="left">&#10094;</button>
-      
+
       <div class="carousel grid">
 
         <div class="instructor-card" data-instruments="flute">
-          <img src="https://picsum.photos/210/250?random=1" alt="Kathleen Berger"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Kathleen Berger" />
           <h5>Kathleen Berger</h5>
           <h5>Chamber Orchestra Conductor, Intermediate String Ensemble Conductor, Flute</h5>
         </div>
 
         <div class="instructor-card" data-instruments="piano">
-          <img src="https://picsum.photos/210/250?random=1" alt="Seth Campbell"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Seth Campbell" />
           <h5>Seth Campbell</h5>
           <h5>Piano</h5>
         </div>
 
         <div class="instructor-card" data-instruments="clarinet">
-          <img src="https://picsum.photos/210/250?random=1" alt="Ting Chang"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Ting Chang" />
           <h5>Ting Chang</h5>
           <h5>Clarinet</h5>
         </div>
 
         <div class="instructor-card" data-instruments="cello">
-          <img src="https://picsum.photos/210/250?random=1" alt="Yunwen Chen"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Yunwen Chen" />
           <h5>Yunwen Chen</h5>
           <h5>Cello</h5>
         </div>
 
         <div class="instructor-card" data-instruments="trumpet,guitar,ukulele">
-          <img src="https://picsum.photos/210/250?random=1" alt="Brian Cogger"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Brian Cogger" />
           <h5>Brian Cogger</h5>
           <h5>Community Engagement Faculty, Trumpet, Guitar, Ukulele</h5>
         </div>
 
         <div class="instructor-card" data-instruments="flute">
-          <img src="https://picsum.photos/210/250?random=1" alt="Kate Davidson"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Kate Davidson" />
           <h5>Kate Davison</h5>
           <h5>Flute</h5>
         </div>
 
         <div class="instructor-card" data-instruments="guitar">
-          <img src="https://picsum.photos/210/250?random=1" alt="Santiago Diaz"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Santiago Diaz" />
           <h5>Santiago Diaz</h5>
           <h5>Guitar</h5>
         </div>
 
         <div class="instructor-card" data-instruments="piano,music production">
-          <img src="https://picsum.photos/210/250?random=1" alt="Manuel García-Baró"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Manuel García-Baró" />
           <h5>Manuel García-Baró</h5>
           <h5>Piano & Technology/Theory Faculty Instructional Lead, Piano, Music Production</h5>
         </div>
 
         <div class="instructor-card" data-instruments="percussion,music production">
-          <img src="https://picsum.photos/210/250?random=1" alt="Dominic Glaude"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Dominic Glaude" />
           <h5>Dominic Glaude</h5>
           <h5>Community Engagement Faculty, Percussion, Music Production</h5>
         </div>
 
         <div class="instructor-card" data-instruments="saxophone,flute,clarinet">
-          <img src="https://picsum.photos/210/250?random=1" alt="Earl Grant-Lawrence"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Earl Grant-Lawrence" />
           <h5>Earl Grant-Lawrence</h5>
           <h5>Saxophone, Flute, Clarinet</h5>
         </div>
 
         <div class="instructor-card" data-instruments="violin,viola">
-          <img src="https://picsum.photos/210/250?random=1" alt="Andrew Gretzinger"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Andrew Gretzinger" />
           <h5>Andrew Gretzinger</h5>
           <h5>Violin, Viola</h5>
         </div>
-        
+
       </div>
       <button class="right">&#10095;</button>
     </section>
-   
-  <!-- Leadership & Staff -->
+
+    <!-- Leadership & Staff -->
     <section class="carousel-section">
       <h3 class="ls">Leadership & Staff</h3>
       <button class="left">&#10094;</button>
-      
-      <div class="carousel grid">  
-        
+
+      <div class="carousel grid">
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Lecolion Washington"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Lecolion Washington" />
           <h5>Lecolion Washington</h5>
           <h5>Executive Director</h5>
           <a href="mailto:lecolion@cmcb.org">lecolion@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Cori Bodley"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Cori Bodley" />
           <h5>Cori Bodley</h5>
           <h5>Chief Programming Officer</h5>
           <a href="mailto:cbodley@cmcb.org">cbodley@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Meghan Jasani"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Meghan Jasani" />
           <h5>Meghan Jasani</h5>
           <h5>Chief Financial and Operating Officer</h5>
           <a href="mailto:jasani@cmcb.org">jasani@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Zachary Sheets"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Zachary Sheets" />
           <h5>Zachary Sheets</h5>
           <h5>Chief Advancement Officer</h5>
           <a href="mailto:sheets@cmcb.org">sheets@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Marcela Bastida"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Marcela Bastida" />
           <h5>Marcela Bastida</h5>
           <h5>Community Engagement Programs Coordinator</h5>
           <a href="mailto:mbastida@cmcb.org">mbastida@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Elizabeth Cai"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Elizabeth Cai" />
           <h5>Elizabeth Cai</h5>
           <h5>Human Resources Manager</h5>
           <a href="mailto:ecai@cmcb.org">ecai@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Rachel Chao"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Rachel Chao" />
           <h5>Rachel Chao</h5>
           <h5>Director of Programming, Community Engagement</h5>
           <a href="mailto:rchao@cmcb.org">rchao@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Jordan Chrispin"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Jordan Chrispin" />
           <h5>Jordan Chrispin</h5>
           <h5>Director of Community Operations</h5>
           <a href="mailto:jchrispin@cmcb.org">jchrispin@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Anthony Douglass"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Anthony Douglass" />
           <h5>Anthony Douglass</h5>
           <h5>Community Engagement Faculty</h5>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Julia Fan"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Julia Fan" />
           <h5>Julia Fan</h5>
           <h5>Marketing Coordinator</h5>
           <a href="mailto:jfan@cmcb.org">jfan@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Jared Field"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Jared Field" />
           <h5>Jared Field</h5>
           <h5>Director of Programming, Community Music School</h5>
           <a href="mailto:jfield@cmcb.org">jfield@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Saralyn Klepaczyk"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Saralyn Klepaczyk" />
           <h5>Saralyn Klepaczyk</h5>
           <h5>Director of Student Enrollment & Experience</h5>
           <a href="mailto:sklepaczyk@cmcb.org">sklepaczyk@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Jillian Moore"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Jillian Moore" />
           <h5>Jillian Moore</h5>
           <h5>Development and Events Coordinator</h5>
           <a href="mailto:jmoore@cmcb.org">jmoore@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Taylor Hope Rogers"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Taylor Hope Rogers" />
           <h5>Taylor Hope Rogers</h5>
           <h5>Youth Development Manager</h5>
           <a href="mailto:trogers@cmcb.org">trogers@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Sahomi Santana"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Sahomi Santana" />
           <h5>Sahomi Santana</h5>
           <h5>Youth Development Coordinator</h5>
           <a href="mailto:santana@cmcb.org">santana@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Hannah Elizabeth Tobias"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Hannah Elizabeth Tobias" />
           <h5>Hannah Elizabeth Tobias</h5>
           <h5>Community Music School Coordinator</h5>
           <a href="mailto:hetobias@cmcb.org">hetobias@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Julia Williams"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Julia Williams" />
           <h5>Julia Williams</h5>
           <h5>Student Services Manager</h5>
           <a href="mailto:jwilliams@cmcb.org">jwilliams@cmcb.org</a>
         </div>
-        
+
         <div class="leadership-card">
-          <img src="https://picsum.photos/210/250?random=1" alt="Kenneth Wilson"/>
+          <img src="https://picsum.photos/210/250?random=1" alt="Kenneth Wilson" />
           <h5>Kenneth Wilson</h5>
           <h5>Executive Assistant</h5>
           <a href="mailto:kwilson@cmcb.org">kwilson@cmcb.org</a>
         </div>
-        
+
       </div>
       <button class="right">&#10095;</button>
     </section>
-    
+
     <!-- Board & Corporation -->
-    <section class="bc"> 
+    <section class="bc">
       <div class="groupimage"></div>
       <h2 class="boardcorp">Board & Corporation</h2>
-      <img src="https://picsum.photos/1160/490?random=1" alt="Board and Corporation"/>
+      <img src="https://picsum.photos/1160/490?random=1" alt="Board and Corporation" />
       <div class="board-corp">
         <div class="board">
           <h3>Board Members</h3>
@@ -289,7 +295,7 @@
             <li>
               <span class="name">Evelyn Tate</span>
               <span class="position">VICE PRESIDENT</span>
-              </li>
+            </li>
             <li>
               <span class="name">George Blount</span>
               <span class="position">TREASURER</span>
@@ -393,14 +399,10 @@
         </div>
       </div>
 
-    
-    
-    
-    
-    
-    
-    
-    
+
   </div>
+  <footer-component></footer-component>
+
 </body>
+
 </html>
