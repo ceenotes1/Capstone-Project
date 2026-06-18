@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carousel</title>
+  <link rel="stylesheet" href="Carousel.css">
+  <script src="Carousel.js" defer></script>
+</head>
+
+
+
+<body> 
+  <div class="page-container">
+    
+    <section class="cmcbleadership">
+      <div class="groupimage"></div>
+      <img src="https://picsum.photos/1160/490?random=1" alt="class image"/>
+      <h3> CMCB Leadership </h3>
+      <p> At CMCB we transform lives by providing equitable access to excellent music education and arts experiences. <br> Over 4,000 students participate in our programs every week. </p>
+      <div class="divider"></div>
+    </section>
+
+   <!-- Filter & Searchbar -->
+    <section class="filter-search"> 
+      <div id="filter">
+        <select id="instrumentFilter"> 
+          <option value="all">All Instruments</option> 
+          <option value="bass">Bass</option>
+          <option value="bassoon">Bassoon</option>
+          <option value="cello">Cello</option>
+          <option value="clarinet">Clarinet</option>
+          <option value="community engagement programs">Community Engagement Programs</option>
+          <option value="dulcimer">Dulcimer</option>
+          <option value="early childhood/elementary group classes">Early Childhood/Elementary Group Classes</option>
+          <option value="ensembles">Ensembles</option>
+          <option value="flute">Flute</option>
+          <option value="guitar">Guitar</option>
+          <option value="harp">Harp</option>
+          <option value="music production">Music Production</option>
+          <option value="music theory">Music Theory</option>
+          <option value="music therapy">Music Therapy</option>
+          <option value="percussion">Percussion</option>
+          <option value="piano">Piano</option>
+          <option value="recorder">Recorder</option>
+          <option value="saxophone">Saxophone</option>
+          <option value="trombone">Trombone</option>
+          <option value="trumpet">Trumpet</option>
+          <option value="ukulele">Ukulele</option>
+          <option value="viola">Viola</option>
+          <option value="violin">Violin</option>
+          <option value="voice">Voice</option>
+        </select>
+      </div>
+      <div>
+        <input type="text" id="search" placeholder="Search">
+      </div>
+    </section>
+
+   <!-- Faculty -->
+    <section class="carousel-section">
+        <h3 class="faculty">Faculty</h3>
+      
+      
+      <button class="left">&#10094;</button>
+      
+      <div class="carousel grid">
+
+        <div class="instructor-card" data-instruments="flute">
+          <img src="https://picsum.photos/210/250?random=1" alt="Kathleen Berger"/>
+          <h5>Kathleen Berger</h5>
+          <h5>Chamber Orchestra Conductor, Intermediate String Ensemble Conductor, Flute</h5>
+        </div>
+
+        <div class="instructor-card" data-instruments="piano">
+          <img src="https://picsum.photos/210/250?random=1" alt="Seth Campbell"/>
+          <h5>Seth Campbell</h5>
+          <h5>Piano</h5>
+        </div>
+
+        <div class="instructor-card" data-instruments="clarinet">
+          <img src="https://picsum.photos/210/250?random=1" alt="Ting Chang"/>
+          <h5>Ting Chang</h5>
+          <h5>Clarinet</h5>
+        </div>
+
+        <div class="instructor-card" data-instruments="cello">
+          <img src="https://picsum.photos/210/250?random=1" alt="Yunwen Chen"/>
+          <h5>Yunwen Chen</h5>
+          <h5>Cello</h5>
+        </div>
+
+        <div class="instructor-card" data-instruments="trumpet,guitar,ukulele">
+          <img src="https://picsum.photos/210/250?random=1" alt="Brian Cogger"/>
+          <h5>Brian Cogger</h5>
+          <h5>Community Engagement Faculty, Trumpet, Guitar, Ukulele</h5>
+        </div>
+
+        <div class="instructor-card" data-instruments="flute">
+          <img src="https://picsum.photos/210/250?random=1" alt="Kate Davidson"/>
+          <h5>Kate Davison</h5>
+          <h5>Flute</h5>
+        </div>
+
+        <div class="instructor-card" data-instruments="guitar">
+          <img src="https://picsum.photos/210/250?random=1" alt="Santiago Diaz"/>
+          <h5>Santiago Diaz</h5>
+          <h5>Guitar</h5>
+        </div>
+
+        <div class="instructor-card" data-instruments="piano,music production">
+          <img src="https://picsum.photos/210/250?random=1" alt="Manuel García-Baró"/>
+          <h5>Manuel García-Baró</h5>
+          <h5>Piano & Technology/Theory Faculty Instructional Lead, Piano, Music Production</h5>
+        </div>
+
+        <div class="instructor-card" data-instruments="percussion,music production">
+          <img src="https://picsum.photos/210/250?random=1" alt="Dominic Glaude"/>
+          <h5>Dominic Glaude</h5>
+          <h5>Community Engagement Faculty, Percussion, Music Production</h5>
+        </div>
+
+        <div class="instructor-card" data-instruments="saxophone,flute,clarinet">
+          <img src="https://picsum.photos/210/250?random=1" alt="Earl Grant-Lawrence"/>
+          <h5>Earl Grant-Lawrence</h5>
+          <h5>Saxophone, Flute, Clarinet</h5>
+        </div>
+
+        <div class="instructor-card" data-instruments="violin,viola">
+          <img src="https://picsum.photos/210/250?random=1" alt="Andrew Gretzinger"/>
+          <h5>Andrew Gretzinger</h5>
+          <h5>Violin, Viola</h5>
+        </div>
+        
+      </div>
+      <button class="right">&#10095;</button>
+    </section>
+   
+  <!-- Leadership & Staff -->
+    <section class="carousel-section">
+      <h3 class="ls">Leadership & Staff</h3>
+      <button class="left">&#10094;</button>
+      
+      <div class="carousel grid">  
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Lecolion Washington"/>
+          <h5>Lecolion Washington</h5>
+          <h5>Executive Director</h5>
+          <a href="mailto:lecolion@cmcb.org">lecolion@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Cori Bodley"/>
+          <h5>Cori Bodley</h5>
+          <h5>Chief Programming Officer</h5>
+          <a href="mailto:cbodley@cmcb.org">cbodley@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Meghan Jasani"/>
+          <h5>Meghan Jasani</h5>
+          <h5>Chief Financial and Operating Officer</h5>
+          <a href="mailto:jasani@cmcb.org">jasani@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Zachary Sheets"/>
+          <h5>Zachary Sheets</h5>
+          <h5>Chief Advancement Officer</h5>
+          <a href="mailto:sheets@cmcb.org">sheets@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Marcela Bastida"/>
+          <h5>Marcela Bastida</h5>
+          <h5>Community Engagement Programs Coordinator</h5>
+          <a href="mailto:mbastida@cmcb.org">mbastida@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Elizabeth Cai"/>
+          <h5>Elizabeth Cai</h5>
+          <h5>Human Resources Manager</h5>
+          <a href="mailto:ecai@cmcb.org">ecai@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Rachel Chao"/>
+          <h5>Rachel Chao</h5>
+          <h5>Director of Programming, Community Engagement</h5>
+          <a href="mailto:rchao@cmcb.org">rchao@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Jordan Chrispin"/>
+          <h5>Jordan Chrispin</h5>
+          <h5>Director of Community Operations</h5>
+          <a href="mailto:jchrispin@cmcb.org">jchrispin@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Anthony Douglass"/>
+          <h5>Anthony Douglass</h5>
+          <h5>Community Engagement Faculty</h5>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Julia Fan"/>
+          <h5>Julia Fan</h5>
+          <h5>Marketing Coordinator</h5>
+          <a href="mailto:jfan@cmcb.org">jfan@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Jared Field"/>
+          <h5>Jared Field</h5>
+          <h5>Director of Programming, Community Music School</h5>
+          <a href="mailto:jfield@cmcb.org">jfield@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Saralyn Klepaczyk"/>
+          <h5>Saralyn Klepaczyk</h5>
+          <h5>Director of Student Enrollment & Experience</h5>
+          <a href="mailto:sklepaczyk@cmcb.org">sklepaczyk@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Jillian Moore"/>
+          <h5>Jillian Moore</h5>
+          <h5>Development and Events Coordinator</h5>
+          <a href="mailto:jmoore@cmcb.org">jmoore@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Taylor Hope Rogers"/>
+          <h5>Taylor Hope Rogers</h5>
+          <h5>Youth Development Manager</h5>
+          <a href="mailto:trogers@cmcb.org">trogers@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Sahomi Santana"/>
+          <h5>Sahomi Santana</h5>
+          <h5>Youth Development Coordinator</h5>
+          <a href="mailto:santana@cmcb.org">santana@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Hannah Elizabeth Tobias"/>
+          <h5>Hannah Elizabeth Tobias</h5>
+          <h5>Community Music School Coordinator</h5>
+          <a href="mailto:hetobias@cmcb.org">hetobias@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Julia Williams"/>
+          <h5>Julia Williams</h5>
+          <h5>Student Services Manager</h5>
+          <a href="mailto:jwilliams@cmcb.org">jwilliams@cmcb.org</a>
+        </div>
+        
+        <div class="leadership-card">
+          <img src="https://picsum.photos/210/250?random=1" alt="Kenneth Wilson"/>
+          <h5>Kenneth Wilson</h5>
+          <h5>Executive Assistant</h5>
+          <a href="mailto:kwilson@cmcb.org">kwilson@cmcb.org</a>
+        </div>
+        
+      </div>
+      <button class="right">&#10095;</button>
+    </section>
+    
+    <!-- Board & Corporation -->
+    <section class="bc"> 
+      <div class="groupimage"></div>
+      <h2 class="boardcorp">Board & Corporation</h2>
+      <img src="https://picsum.photos/1160/490?random=1" alt="Board and Corporation"/>
+      <div class="board-corp">
+        <div class="board">
+          <h3>Board Members</h3>
+          <ul>
+            <li>
+              <span class="name">Kurt Hakansson</span>
+              <span class="position">PRESIDENT</span>
+            </li>
+            <li>
+              <span class="name">Evelyn Tate</span>
+              <span class="position">VICE PRESIDENT</span>
+              </li>
+            <li>
+              <span class="name">George Blount</span>
+              <span class="position">TREASURER</span>
+            </li>
+            <li>
+              <span class="name">Ann-Marie Pucillo</span>
+              <span class="position">CLERK</span>
+            </li>
+            <br>
+            <li>Edwine Alphonse</li>
+            <li>Lucas M. Blackadar</li>
+            <li>C. Thomas Brown</li>
+            <li>Pauline Dufresne</li>
+            <li>Rachel Esch</li>
+            <li>Matt Farmer</li>
+            <li>Eric Gould</li>
+            <li>Tom Kuo</li>
+            <li>Sarah Patrick</li>
+            <li>Gregory Paul</li>
+            <li>Lorraine Payne Wheeler</li>
+            <li>Dawn Petersen</li>
+            <li>Barry Reaves</li>
+            <li>Brenda S. Ross</li>
+            <li>Ellen E. Sheets</li>
+            <li>Martin Thomson</li>
+          </ul>
+        </div>
+
+        <div class="corporation">
+          <h3>Corporation Members</h3>
+          <div class="corp-columns">
+            <ul>
+              <li>Beverly L. Arsem</li>
+              <li>Janet M. Bailey</li>
+              <li>Allyson Bloom</li>
+              <li>Barney Carney</li>
+              <li>Mary Carney</li>
+              <li>Mary Cerulli</li>
+              <li>Fallon Chipidza</li>
+              <li>Leslie J. Colburn</li>
+              <li>Barbara Corey</li>
+              <li>Don Crawford</li>
+              <li>Liane Crawford</li>
+              <li>Ginger Dagli</li>
+              <li>David DesRoches</li>
+              <li>Karen K. Dimit</li>
+              <li>Dick Dougherty</li>
+              <li>Nicole DuFauchard</li>
+              <li>Gerard Fong</li>
+              <li>Kaia Goldstein</li>
+              <li>Milica Golubovic</li>
+              <li>Betsy Hall</li>
+            </ul>
+
+            <ul>
+              <li>Robin Hanley</li>
+              <li>Jill Hatton</li>
+              <li>George Hein</li>
+              <li>James Heskett</li>
+              <li>Richard A. Johnson</li>
+              <li>Andrea Kaiser</li>
+              <li>Sari Kalin</li>
+              <li>Pam Kimball</li>
+              <li>Daniel N. Krulewitch</li>
+              <li>Taneshia Laird</li>
+              <li>Margaret Lam</li>
+              <li>David Lapin</li>
+              <li>Virginia M. Lawrence</li>
+              <li>Sarah Leggat</li>
+              <li>John Loder</li>
+              <li>Joanna S. Lu</li>
+              <li>Wyona Lynch-McWhite</li>
+              <li>Timothy R. Mangin</li>
+              <li>Michael McCord</li>
+              <li>Ruth Mercado Zizzo</li>
+            </ul>
+
+            <ul>
+              <li>Marilyn Morrissey</li>
+              <li>William Murphy</li>
+              <li>Claire Newton</li>
+              <li>Myran Parker-Brass</li>
+              <li>James Piatt</li>
+              <li>Emily Pierce</li>
+              <li>Huguens Pierre-Charles</li>
+              <li>Ted Pietras</li>
+              <li>Deborah Rambo</li>
+              <li>Barbara Roberts</li>
+              <li>Emily Romney</li>
+              <li>Jo-Ann Ross</li>
+              <li>Abria M. Smith</li>
+              <li>Janet Spitz</li>
+              <li>Chia-Ming Sze</li>
+              <li>Marie Tai</li>
+              <li>Milos Veljkovic</li>
+              <li>Karen Wacks</li>
+              <li>Devon Wilson-Hill</li>
+              <li>Jordan Wolkon</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</body>
+</html>

@@ -1,0 +1,137 @@
+/* Web Font */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* Page */
+.page-container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+/* Filter & Search Bar */
+.filter-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+#search {
+  border: none;
+  padding: 4px;
+}
+
+
+/* Titles & Text */
+.cmcbleadership, .boardcorp {
+  text-align: center;
+}
+.cmcbleadership h3 {
+  margin-top: 40px;
+}
+.boardcorp {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.ls, .faculty {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.board-corp {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  margin-top: 40px;
+}
+.board {
+  flex: 1;
+}
+.corporation {
+  flex: 2;
+}
+.corp-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.board li {
+  display: flex;
+}
+.name {
+  width: 135px;   
+}
+.board-corp {
+  line-height: 30px;
+}
+
+
+/* Carousels */
+.grid {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  scroll-behavior: smooth;
+}
+
+.carousel-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.carousel-section h3 {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.ls {
+  width: 100%;
+  margin-top: 90px;
+}
+
+/* Cards */
+.instructor-card, .leadership-card {
+  flex: 0 0 210px;
+  height: 375px;
+  background: #f5f5f5;
+  padding: 20px;
+  background-color: #F5F5F5;
+}
+a {
+  color: #1F2A44;
+}
+
+/* Board & Corporation */
+.position {
+  margin-left: 5px;
+}
+
+
+/* Color */
+#instrumentFilter, #search {
+  background-color: #D9A21B;
+}
+#search::placeholder {
+  color: black;
+}
+.right, .left {
+  background-color: #D9A21B;
+  border: none;
+  padding: 5px;
+}
+.divider {
+  width: 900px;
+  border-top: 1px solid black;
+  margin: 50px auto 0 auto;
+}
