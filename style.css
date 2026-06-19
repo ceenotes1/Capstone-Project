@@ -1,18 +1,185 @@
+/* Global Styles */
+
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: #333;
-  background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: white;
+}
+
+main {
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
 }
 
 /* Hero Section */
+
 .hero {
-  background-color: #D9A21B;
-  text-align: center;
-  padding: 70px 20px;
+    background-image: url("media/hero.PNG"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    color: white;
+} 
+
+.hero-content {
+  
+    max-width: 850px;
+    margin: 0 auto;
+    background: rgba(250, 249, 249, 0.45);
+    padding: 40px;
+    border-radius: 12px;
+} 
+
+.hero h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+    color: #f7f8fb;
 }
 
-.hero h2 {
-  font-size: 32px;
-  margin-bottom: 15px;
+.hero p {
+    font-size: 19px;
+    max-width: 700px;
+    margin: 0 auto 25px auto;
 }
+
+/* Buttons */
+
+button {
+    background-color: #D9A21B;
+    color: #1F2A44;
+    border: none;
+    padding: 12px 26px;
+    margin: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.secondary-btn {
+    background-color: white;
+    border: 2px solid #D9A21B;
+}
+
+/* Sections */
+
+.intro,
+.programs,
+.pathways,
+.impact,
+.cta {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.intro p,
+.pathways p,
+.impact p,
+.cta p {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+/* Programs and Pathways Cards */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-top: 35px;
+}
+
+.card {
+    background-color: white;
+    width: 260px;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+    color: #1F2A44;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+/* Impact Section */
+
+.impact {
+    background-color: #f5f5f5;
+}
+
+/* CTA Section */
+
+.cta {
+    background-color: #1F2A44;
+    color: white;
+}
+
+.cta h2 {
+    color: white;
+}
+
+.cta p {
+    margin-bottom: 20px;
+}
+
+.cta button {
+    background-color: #D9A21B;
+    color: #1F2A44;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 70px 20px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .card {
+        width: 85%;
+    }
+
+    .intro,
+    .programs,
+    .pathways,
+    .impact,
+    .cta {
+        padding: 45px 18px;
+    }
+} 
