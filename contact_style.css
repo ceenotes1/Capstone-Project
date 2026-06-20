@@ -111,7 +111,7 @@ h4 {
 
 /* contact form */
 .contact {
-  padding: 96px;
+  padding: 96px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -121,4 +121,10 @@ h4 {
 
 input {
   width: max-content;
+}
+
+@media screen and (max-width: 600px) {
+  iframe {
+    width: 100%;
+  }
 }
