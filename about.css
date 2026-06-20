@@ -434,6 +434,7 @@ img {
   grid-template-columns: 0.9fr 1.2fr;
   gap: 24px;
   align-items: center;
+    margin-top: 40px;
 }
 
 .future-text {
