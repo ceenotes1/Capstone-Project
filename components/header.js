@@ -8,9 +8,9 @@ class HeaderComponent extends HTMLElement {
                     <div id="nav-btns">
                         <a href="about.html" target="_blank">About</a>
                         <a href="programs.html" target="_blank">Programs</a>
-                        <a href="contact.html" target="_blank">Contact Us</a>
+                        <a href="contact.html" target="_blank">Contact</a>
 
-                        <button id="desktop-menu-toggle" class="desktop-menu-btn">☰ Menu</button> 
+                        <button id="desktop-menu-toggle" class="desktop-menu-btn">☰</button> 
 
 
                         <button id="mobile-menu-toggle" class="hamburger">
