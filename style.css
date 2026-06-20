@@ -136,6 +136,9 @@ button:hover {
     border-radius: 12px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
     transition: .3s ease;
+    background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
 }
 
 .card:hover {
@@ -150,8 +153,31 @@ button:hover {
     margin-bottom: 12px;
 }
 
-.card p {
+.pathways .card h3 {
+    color: #ffffff;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.676);
+    background-color: #ffffff36;
+    border-radius: 10px;
+}
+.pathways .card p  {
+    color: #FFFFFF;
     font-size: 16px;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+#explore-card {
+    background-image: url(https://cmcb.org/wp-content/uploads/2025/05/SSL3337-1536x1024.jpg);
+}
+#learn-card {
+    background-image: url(https://cmcb.org/wp-content/uploads/2025/04/CMCB-202-303-23-RueSakayama-180-1-edited-768x595.jpg);
+}
+#perform-card {
+    background-image: url(https://cmcb.org/wp-content/uploads/2025/05/SSL2622-1536x1024.jpg);
+}
+#grow-card {
+    background-image: url(https://cmcb.org/wp-content/uploads/2025/04/CMCB-202-303-23-RueSakayama-163-768x512.jpg);
 }
 
 /* Impact Section */
