@@ -53,11 +53,15 @@ class Footer extends HTMLElement {
 
       <div id="socials">
         <a href="https://www.instagram.com/communitymusiccenterofboston/" target="_blank"><img id="social-img"
-            src="/media/instagram.png"></a>
-        <a href="https://twitter.com/cmcbdotorg" target="_blank"><img id="social-img" src="/media/twitter.png"> </a>
-        <a href="https://www.facebook.com/communitymusiccenter/" target="_blank"><img id="social-img" src="/media/facebook.png"></a>
+            src="media/instagram.png"></a>
+        <a href="https://twitter.com/cmcbdotorg" target="_blank">
+    <img id="social-img" src="media/twitter.png">
+</a>
+        <a href="https://www.facebook.com/communitymusiccenter/" target="_blank">
+    <img id="social-img" src="media/facebook.png">
+</a> 
         <a href="https://www.youtube.com/channel/UCOcVkq0OgqxA2od_qHH-iSg" target="_blank"><img id="social-img"
-            src="/media/youtube.png"></a>
+            src="media/youtube.png"></a>
       </div>
     </div>
   </footer>
