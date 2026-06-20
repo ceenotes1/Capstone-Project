@@ -136,3 +136,117 @@ a {
   border-top: 1px solid black;
   margin: 50px auto 0 auto;
 }
+
+/* Mobile Media Query */
+
+@media (max-width: 768px) {
+
+  .page-container {
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .cmcbleadership img,
+  .bc img {
+    width: 100%;
+    height: auto;
+  }
+
+  .divider {
+    width: 100%;
+  }
+
+  /* Filter & Search */
+  .filter-search {
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+  }
+
+  #instrumentFilter,
+  #search {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  /* Carousel */
+  .carousel-section {
+    gap: 15px;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+
+  .left,
+  .right {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  /* Cards */
+  .instructor-card,
+  .leadership-card {
+    flex: 0 0 250px;
+    height: auto;
+    min-height: 350px;
+  }
+
+  .instructor-card img,
+  .leadership-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Board & Corporation */
+  .board-corp {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .corp-columns {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .board li {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .name {
+    width: auto;
+  }
+
+  /* Typography */
+  .faculty,
+  .ls,
+  .boardcorp {
+    text-align: center;
+  }
+
+  .faculty,
+  .ls {
+    font-size: 22px;
+  }
+
+  .cmcbleadership h3,
+  .boardcorp {
+    margin-top: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
