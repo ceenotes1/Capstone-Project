@@ -187,9 +187,12 @@ footer {
   nav,
   footer,
   #more-links,
+  #nav-btns,
   #credits {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 0;
   }
 
   #desktop-menu-toggle {
@@ -202,6 +205,10 @@ footer {
 
   #pop-up-menu {
     top: 180px;
+  }
+
+  #more-links, #credits {
+    gap: 44px;
   }
 }
 
