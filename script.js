@@ -54,7 +54,7 @@ programButtons.forEach(function (button) {
   })
 })
 
-function validateForm() {
+function validateForm () {
   const name = document.forms.contact_form.fname.value
   const email = document.forms.contact_form.email.value
   const reason = document.forms.contact_form.reason.value

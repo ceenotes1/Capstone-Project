@@ -1,12 +1,12 @@
 /* Global Styles */
 
 b:root {
-  --navy: #1F2A44;
-  --gold: #D9A21B;
-  --gold-hover: #C48F15;
-  --white: #FFFFFF;
-  --text: #333333;
-  --light-gray: #F5F5F5;
+    --navy: #1F2A44;
+    --gold: #D9A21B;
+    --gold-hover: #C48F15;
+    --white: #FFFFFF;
+    --text: #333333;
+    --light-gray: #F5F5F5;
 }
 
 body {
@@ -18,6 +18,7 @@ body {
 
 main {
     width: 100%;
+    padding-top: 140px;
 }
 
 h1,
@@ -34,11 +35,9 @@ p {
 
 .hero {
     background-image:
-    linear-gradient(
-        rgba(31,42,68,.55),
-        rgba(31,42,68,.55)
-    ),
-    url("./media/hero.PNG");
+        linear-gradient(rgba(31, 42, 68, .55),
+            rgba(31, 42, 68, .55)),
+        url("./media/hero.PNG");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,16 +50,16 @@ p {
 
     text-align: center;
     color: white;
-} 
+}
 
 .hero-content {
     max-width: 850px;
     margin: 0 auto;
-    background: rgba(255,255,255,.15);
+    background: rgba(255, 255, 255, .15);
     backdrop-filter: blur(4px);
     padding: 40px;
     border-radius: 12px;
-} 
+}
 
 .hero h1 {
     font-size: 44px;
@@ -93,7 +92,7 @@ button:hover {
     background-color: var(--gold-hover);
     transform: translateY(-2px);
     transition: .3s ease;
-} 
+}
 
 .secondary-btn {
     background-color: white;
@@ -135,15 +134,17 @@ button:hover {
     width: 260px;
     padding: 28px;
     border-radius: 12px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
     transition: .3s ease;
 }
+
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.20);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.20);
 
-    
+
 }
+
 .card h3 {
     color: #1F2A44;
     margin-bottom: 12px;
@@ -205,35 +206,36 @@ button:hover {
     .cta {
         padding: 45px 18px;
     }
-} 
+}
+
 .secondary-btn {
-  background-color: #D9A21B;
-  color: #1F2A44;
-  border: 2px solid #D9A21B;
+    background-color: #D9A21B;
+    color: #1F2A44;
+    border: 2px solid #D9A21B;
 }
 
 .secondary-btn:hover {
-  background-color: #C48F15;
-  border-color: #C48F15;
+    background-color: #C48F15;
+    border-color: #C48F15;
 }
 
 .intro,
 .programs,
 .pathways {
-  padding: 40px 20px;
+    padding: 40px 20px;
 }
 
 .cta {
-  padding: 50px 20px;
+    padding: 50px 20px;
 }
 
 .card-container {
-  margin-top: 25px;
+    margin-top: 25px;
 }
 
 .card {
-  border-top: 4px solid #D9A21B;
-} 
+    border-top: 4px solid #D9A21B;
+}
 
 #mobile-menu-toggle {
     display: none;
@@ -247,21 +249,22 @@ button:hover {
     #desktop-menu-toggle {
         display: none;
     }
-} 
+}
+
 #mobile-menu-toggle {
-  display: none !important;
+    display: none !important;
 }
 
 #desktop-menu-toggle {
-  display: inline-block !important;
+    display: inline-block !important;
 }
 
 @media (max-width: 768px) {
-  #mobile-menu-toggle {
-    display: block !important;
-  }
+    #mobile-menu-toggle {
+        display: block !important;
+    }
 
-  #desktop-menu-toggle {
-    display: none !important;
-  }
-} 
+    #desktop-menu-toggle {
+        display: none !important;
+    }
+}
