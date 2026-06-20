@@ -7,7 +7,11 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./common.css">
   <script src="components/header.js" type="text/javascript" defer></script>
+  
   <script src="components/footer.js" type="text/javascript" defer></script>
+  <script src="script.js" defer></script> 
+
+
   <title>Community Music Center of Boston | CMCB</title>
 </head>
 
@@ -20,37 +24,59 @@
     <div class="hero-content">
       <h1>Music Education for Every Age and Stage</h1>
       <p>Explore private lessons, group classes, community programs, and student pathways for learners throughout Boston.</p>
-      <button id="registerBtn">Register Now</button>
+      <button id="registerBtn" class="secondary-btn">Register Now</button> 
       <button id="donateBtn" class="secondary-btn">Donate</button>
     </div>
   </section>
 
   <section class="intro">
     <h2>Welcome to CMCB</h2>
-    <p>Community Music Center of Boston provides accessible, learner-centered music education for students, families, and communities.</p>
+    <p>Community Music Center of Boston provides accessible, learner-centered music education that supports students, families, and the broader community.</p>
   </section>
 
   <section class="programs">
     <h2>Featured Programs</h2>
     <div class="card-container">
-      <div class="card">Private Lessons</div>
-      <div class="card">Group Classes</div>
-      <div class="card">Community Programs</div>
+      <div class="card">
+        <h3>Private Lessons</h3>
+        <p>Personalized instruction for students at every skill level.</p>
+      </div>
+      <div class="card">
+        <h3>Group Classes</h3>
+        <p>Collaborative learning experiences that build confidence and creativity.</p>
+      </div>
+      <div class="card">
+        <h3>Community Programs</h3>
+        <p>Accessible music opportunities designed to serve Boston communities.</p>
+      </div>
     </div>
   </section>
 
   <section class="pathways">
     <h2>Student Pathways</h2>
     <div class="card-container">
-      <div class="card">Explore</div>
-      <div class="card">Learn</div>
-      <div class="card">Perform</div>
-      <div class="card">Grow</div>
+      <div class="card">
+        <h3>Explore</h3>
+        <p>Discover instruments, rhythm, and musical creativity.</p>
+      </div>
+      <div class="card">
+        <h3>Learn</h3>
+        <p>Build strong foundations through guided music education.</p>
+      </div>
+      <div class="card">
+        <h3>Perform</h3>
+        <p>Gain confidence through recitals, showcases, and performances.</p>
+      </div>
+      <div class="card">
+        <h3>Grow</h3>
+        <p>Continue developing as a musician, student, and creative learner.</p>
+      </div>
     </div>
   </section>
 
   <section class="cta">
     <h2>Ready to Start Your Musical Journey?</h2>
+    <p>Take the next step with CMCB today.</p>
     <button id="inquiryBtn">Submit Inquiry</button>
     <button id="volunteerBtn" class="secondary-btn">Volunteer</button>
     <button id="eventsBtn" class="secondary-btn">Events</button>
@@ -58,8 +84,20 @@
 </main> 
 
 
-  <script src="script.js"></script>
+  
   <footer-component></footer-component>
+  <script>
+  const registerBtn = document.getElementById("registerBtn");
+
+  registerBtn.addEventListener("click", function () {
+    window.open("https://cmcb.asapconnected.com/?org=5521", "_blank");
+  });
+  const donateBtn = document.getElementById("donateBtn");
+
+donateBtn.addEventListener("click", function () {
+  window.open("https://cmcb.org/donate/", "_blank");
+}); 
+</script> 
 </body>
 
 </html>

@@ -1,10 +1,19 @@
 /* Global Styles */
 
+b:root {
+  --navy: #1F2A44;
+  --gold: #D9A21B;
+  --gold-hover: #C48F15;
+  --white: #FFFFFF;
+  --text: #333333;
+  --light-gray: #F5F5F5;
+}
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: white;
+    font-family: "Helvetica Neue", sans-serif;
+    color: var(--text);
+    background-color: var(--white);
 }
 
 main {
@@ -24,7 +33,12 @@ p {
 /* Hero Section */
 
 .hero {
-    background-image: url("media/hero.PNG"); 
+    background-image:
+    linear-gradient(
+        rgba(31,42,68,.55),
+        rgba(31,42,68,.55)
+    ),
+    url("./media/hero.PNG");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,10 +54,10 @@ p {
 } 
 
 .hero-content {
-  
     max-width: 850px;
     margin: 0 auto;
-    background: rgba(250, 249, 249, 0.45);
+    background: rgba(255,255,255,.15);
+    backdrop-filter: blur(4px);
     padding: 40px;
     border-radius: 12px;
 } 
@@ -51,7 +65,8 @@ p {
 .hero h1 {
     font-size: 44px;
     margin-bottom: 20px;
-    color: #f7f8fb;
+    color: white;
+    font-weight: 700;
 }
 
 .hero p {
@@ -63,8 +78,8 @@ p {
 /* Buttons */
 
 button {
-    background-color: #D9A21B;
-    color: #1F2A44;
+    background-color: var(--gold);
+    color: var(--navy);
     border: none;
     padding: 12px 26px;
     margin: 10px;
@@ -75,8 +90,10 @@ button {
 }
 
 button:hover {
-    opacity: 0.9;
-}
+    background-color: var(--gold-hover);
+    transform: translateY(-2px);
+    transition: .3s ease;
+} 
 
 .secondary-btn {
     background-color: white;
@@ -119,8 +136,14 @@ button:hover {
     padding: 28px;
     border-radius: 12px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    transition: .3s ease;
 }
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.20);
 
+    
+}
 .card h3 {
     color: #1F2A44;
     margin-bottom: 12px;
@@ -182,4 +205,63 @@ button:hover {
     .cta {
         padding: 45px 18px;
     }
+} 
+.secondary-btn {
+  background-color: #D9A21B;
+  color: #1F2A44;
+  border: 2px solid #D9A21B;
+}
+
+.secondary-btn:hover {
+  background-color: #C48F15;
+  border-color: #C48F15;
+}
+
+.intro,
+.programs,
+.pathways {
+  padding: 40px 20px;
+}
+
+.cta {
+  padding: 50px 20px;
+}
+
+.card-container {
+  margin-top: 25px;
+}
+
+.card {
+  border-top: 4px solid #D9A21B;
+} 
+
+#mobile-menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #mobile-menu-toggle {
+        display: block;
+    }
+
+    #desktop-menu-toggle {
+        display: none;
+    }
+} 
+#mobile-menu-toggle {
+  display: none !important;
+}
+
+#desktop-menu-toggle {
+  display: inline-block !important;
+}
+
+@media (max-width: 768px) {
+  #mobile-menu-toggle {
+    display: block !important;
+  }
+
+  #desktop-menu-toggle {
+    display: none !important;
+  }
 } 

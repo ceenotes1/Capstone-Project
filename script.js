@@ -18,9 +18,9 @@ const eventsBtn = document.getElementById("eventsBtn");
 
 if (registerBtn) {
   registerBtn.addEventListener("click", function () {
-    window.location.href = "contact.html";
+   alert("Register button works!"); 
   });
-}
+} 
 
 if (donateBtn) {
   donateBtn.addEventListener("click", function () {
