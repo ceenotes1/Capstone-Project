@@ -489,3 +489,10 @@ img {
   }
 
 }
+
+@media screen and (max-width: 800px) {
+  .page {
+    padding-top: 300px;
+  }
+
+}
